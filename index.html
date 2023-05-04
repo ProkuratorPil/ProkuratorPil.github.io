@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>C Programming</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1><small>Индивидуальный проект<br> по теме:<br></small> Языки программирования семейства Си/Си</h1>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'intro')">Главная</button>
+        <button class="tablinks" onclick="openTab(event, 'syntax')">История создания С</button>
+        <button class="tablinks" onclick="openTab(event, 'types')">Языки семейства С и их приминение</button>
+        <button class="tablinks" onclick="openTab(event, 'practice')">Практика</button>
+    </div>
+
+    <div class="tabcontent" style="display: block;" id="intro">
+        <p>
+            Язык программирования — это набор формальных правил, по которым пишут программы. Обычный язык нужен для общения людей, а язык программирования — для общения с компьютером. Как и в любом естественном языке, тут есть лексика — слова, функции и операторы, из которых по правилам синтаксиса составляются выражения. Они имеют чёткий, вполне определённый смысл, понятный компьютеру. Языков программирования огромное множество и к ним относятся все языки программирования семейства Си/си <br>
+            К языкам семейства Си относятся:
+            <ul>
+                <li>С</li>
+                <li>С++</li>
+                <li>Objective-C, применяемый корпорацией Apple </li>
+                <li>C#</li>
+            </ul>
+            Освоение любого из языков семейства С даёт разработчику фундаментальные знания и понимание основ программирования. Если вы знаете один из языков С, то изучить любой другой становится намного проще. И не потому, что синтаксис похож, а из-за системности подхода — Си помогает понять логику и архитектуру компьютеров, операционных систем и сетевых технологий.
+        </p>
+        <h4>Актуальность:</h4>
+        <p>Тема языков программирования семейства Си является актуальной в современном мире, поскольку на нём до сих пор пишут немалое количество программ.</p>
+        <h4>
+            Предмет исследования:
+        </h4>
+        <p>
+            Технологические возможности программ разработки, тестирования, создания программ на языках программирования.
+        </p>
+        <h4>
+            Цель проекта:
+        </h4>
+        <p>
+            Выяснить, как люди совершенствовали языки программирования, какие языки из семейства Си на данный момент самые актуальные.
+        </p>
+    </div>
+
+    <div class="tabcontent" id="syntax">
+        <h2>История создания языка С</h2>
+        <p style="text-indent: 20px;">Язык программирования Си - один из самых популярных и используемых языков в мире. Он был создан в начале 1970-х годов программистом Деннисом Ритчи (Dennis Ritchie) в Bell Labs, компании, занимающейся научными исследованиями в сфере телекоммуникаций.</p>
+        <p style="text-indent: 20px;">	Ритчи разрабатывал язык Си как усовершенствованную версию языка Би, который был создан в Bell Labs еще в 1967 году. Он ставил перед собой задачу создать язык, который бы имел достаточно высокий уровень абстракции, позволяя программистам лучше управлять ресурсами компьютера и упрощал разработку программ.</p>
+        <p style="text-indent: 20px;">	Для разработки Си, Ритчи использовал основные принципы языков высокого уровня: декларативность, структурность и генерализацию. Он также интегрировал в Си систему типов данных, что позволило программистам очень четко определять типы переменных, что в свою очередь упростило работу с памятью и сократило количество ошибок.</p>
+        <p style="text-indent: 20px;">	Это позволило Си получить репутацию более надежного и мощного языка программирования, чем языки низкого уровня, такие как ассемблер. Он также был свободно распространяемым, что позволило ему стать основой для многих других языков программирования, таких как С++, Java и Python.</p>
+        <p style="text-indent: 20px;">	В настоящее время Си продолжает быть одним из самых важных языков программирования, и его использование до сих пор остается широко распространенным во многих областях, от системного программирования до разработки веб-приложений и научных исследований.</p>
+
+    </div>
+
+    <div class="tabcontent" id="types">
+        <h2>Языки семейства С и их приминение</h2>
+        <ul>
+        <dt><h4>1) С и его применение</h4></dt>
+        <dd><p><b>1.1 Краткая история:</b> Язык программирования C была разработан в 1969-1973 годах сотрудником Bell Labs Деннисом Ритчи как развитие языка B. Первоначально был разработан для реализации операционной системы UNIX, но впоследствии был перенесён на множество других платформ.</p></dd>
+        <dd><p><b>1.2 Применение:</b> На Си программируются микроконтроллеры. Ядро Linux тоже написано на нем. На этом языке пишут игры для мобильных телефонов и многое другое.</p></dd>
+        <dt><h4>2) С++ и его применение</h4></dt>
+        <dd><p><b>2.1 Краткая история: </b>Язык программирования С++ был создан в начале 1980-х годов, его создатель сотрудник фирмы Bell Laboratories — Бьёрн Страуструп. Страуструп добавил к стандартному языку программирования С возможность работы с классами и объектами, тем самым зародил предпосылки нового, основанного на синтаксисе С, языка программирования.</p></dd>
+        <dd><p><b>2.2 Применение: </b>С++ применяют для создания высоконагруженных сервисов, где важна скорость работы, таких как поисковые и рекламные системы, драйверы и операционные системы, игры и приложения, а также в разработке браузеров, потому что люди любят открывать много вкладок, а потом смотреть на зависающий компьютер. Также на нём можно писать программы любой сложности, в том числе модели машинного обучения и программы для автопилотов.</p></dd>
+        <dt><h4>3) Objective-C и его применение</h4></dt>
+        <dd><p><b>3.1 Краткая история: </b>Objective-C был создан Брэдом Коксом в начале 1980-х в его компании Stepstone. Он пытался решить проблему повторного использования кода. Целью Кокса было создание языка, поддерживающего концепцию software IC, подразумевающей возможность собирать программы из готовых компонентов (объектов), подобно тому, как сложные электронные устройства могут быть собраны из набора готовых интегральных микросхем.</p></dd>
+        <dd><p><b>3.2 Применение: </b>Objective C - язык для разработки мобильных и десктопных приложений, преимущественно использующийся в операционных системах компании Apple.</p></dd>
+        <dt><h4>4) С# и его применение</h4></dt>
+        <dd><p><b>4.1 Краткая история: </b>Язык программирования С# был разработан в 1993—2001 годах группой инженеров компании Microsoft под руководством Андерса Хейлсберга и Скотта Вильтаумота как язык разработки приложений для платформы Microsoft.</p></dd>
+        <dd><p><b>4.2 Применение: </b>C# используется в работе с базами данных и сетью, в программировании логики и так далее. Программисты C# востребованы в банках, небольших компаниях и стартапах, мобильной разработке.</p></dd>
+        </ul>
+    </div>
+    <div class="tabcontent" id="practice">
+        <h2>Практическая часть</h2>
+        <p>Для написания проектной части мной был выбран язык программирования C#. Но для начала сравним языки программирования.</p>
+        <ol>
+            <li>
+                <h4>Простейший консольный калькулятор на языке программирования python:</h4>
+                <pre><code>
+                <div id="python"><span style="color:orange">print("Введите первое число: ")
+num1 = float(input())
+
+print("Введите операцию (+, -, *, /): ")
+Znak = input()
+
+print("Введите второе число: ")
+num2 = float(input())
+
+if Znak == "+":
+print(num1 + num2)
+elif Znak == "-":
+print(num1 - num2)
+elif Znak == "*":
+print(num1 * num2)
+print(num1 / num2)
+else:
+print("Ошибка: неизвестный оператор")
+</div>
+</code>
+</pre>
+                 1. Сначала используется функция print, чтобы вывести сообщение о запросе первого числа.<br>
+                 2. Затем используется функция input, которая позволяет пользователю ввести значение, и функция float, чтобы преобразовать введенное значение в тип float и сохранить его в переменной num1.<br>
+                 3. Аналогично запрашивается оператор и сохраняется в переменной Znak.<br>
+                 4. Затем запрашивается и второе число и также сохраняется в переменной num2.<br>
+                 5. При помощи условного оператора if-else программа определяет, какую операцию нужно выполнить.<br>
+                 6. Если операция - сложение (Znak == "+"), программа выводит результат сложения чисел.<br>
+                 7. Если операция - вычитание (Znak == "-"), программа выводит результат вычитания чисел и т.д. Для умножения используется знак *, для деления знак /.<br>
+                 8. Если введенный оператор не соответствует ни одному из приведенных (else), программа выводит сообщение об ошибке.<br>
+
+            </li>
+            <li>
+                <h4>Простейший консольный калькулятор на языке программирования c#:</h4>
+                <pre><code>
+<div id="f3"><span style="color:orange">using System;
+
+class Program {
+static void Main(string[] args) {
+Console.WriteLine("Введите первое число: ");
+double num1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Введите операцию (+, -, *, /): ");
+string op = Console.ReadLine();
+
+Console.WriteLine("Введите второе число: ");
+double num2 = Convert.ToDouble(Console.ReadLine());
+
+if (op == "+") {
+Console.WriteLine(num1 + num2);
+} else if (op == "-") {
+Console.WriteLine(num1 - num2);
+} else if (op == "*") {
+Console.WriteLine(num1 * num2);
+} else if (op == "/") {
+Console.WriteLine(num1 / num2);
+} else {
+Console.WriteLine("Ошибка: неизвестный оператор");
+}
+
+Console.ReadKey();
+}
+}
+</div></code></pre><ol>
+                <li>Сначала используется ключевое слово using, чтобы подключить системную библиотеку System, которая содержит класс Console, который нужен для ввода-вывода в консоль.</li>
+                <li>Затем определяется класс Program.</li>
+                <li>В классе Program определяется метод Main, который является входной точкой программы.</li>
+                <li>В методе Main сначала выводится сообщение с запросом о вводе первого числа при помощи Console.WriteLine.</li>
+                <li>Затем используется метод Convert.ToDouble для преобразования введенной строки, содержащей первое число, в тип double и сохранения его в переменной num1.</li>
+                <li>Аналогично запрашивается оператор и сохраняется в переменной op.</li>
+                <li>Затем также запрашивается и второе число и сохраняется в переменной num2.</li>
+                <li>При помощи условного оператора if-else программа определяет, какую операцию нужно выполнить.</li>
+                <li>Если операция - сложение (op == "+"), программа выводит результат сложения чисел.</li>
+                <li>Если операция - вычитание (op == "-"), программа выводит результат вычитания чисел и т.д. Для умножения используется знак *, для деления знак /.</li>
+                <li>Если введенный оператор не соответствует ни одному из приведенных (else), программа выводит сообщение об ошибке.</li>
+                <li>Затем программа ждет, пока пользователь нажмет любую клавишу, и завершает свою работу. </li>
+            </ol></li>
+            <li>
+                <h4>Проект</h4><pre><code><div style="font-size: small;"><div id="f4"><span style="color:orange">    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using System.Windows;
+    using System.Windows.Controls;
+    using System.Windows.Data;
+    using System.Windows.Documents;
+    using System.Windows.Input;
+    using System.Windows.Media;
+    using System.Windows.Media.Imaging;
+    using System.Windows.Navigation;
+    using System.Windows.Shapes;
+    using System.Data;
+
+    namespace up_pr7
+    {
+    public partial class MainWindow : Window
+    {
+    public MainWindow()
+    {
+    InitializeComponent();
+    foreach (UIElement el in Calculyator.Children)
+    {
+    if (el is Button)
+    {
+    ((Button)el).Click += Button_Click;
+    }
+    }
+    }
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+    string vvod = (string)((Button)e.OriginalSource).Content;
+    switch (vvod)
+    {
+    case "CE":
+    {
+    TextBox_Vichislenie.Text = "";
+    break;
+    }
+    case "=":
+    {
+    string chislo = new DataTable().Compute(TextBox_Vichislenie.Text, null).ToString();
+    TextBox_Vichislenie.Text = chislo;
+    textBox1.Text = "Хм";
+    // textBox1.BackColor = Color.Blue;
+    break;
+    }
+    case "x²":
+    {
+    string chislo = new DataTable().Compute(TextBox_Vichislenie.Text, null).ToString();
+    var kvadrat = Convert.ToDouble(chislo);
+    kvadrat = Math.Pow(kvadrat, 2);
+    chislo = Convert.ToString(kvadrat);
+    TextBox_Vichislenie.Text = chislo;
+    break;
+    }
+    case "x³":
+    {
+    string chislo = new DataTable().Compute(TextBox_Vichislenie.Text, null).ToString();
+    var kub = Convert.ToDouble(chislo);
+    kub = Math.Pow(kub, 3);
+    chislo = Convert.ToString(kub);
+    TextBox_Vichislenie.Text = chislo;
+    break;
+    }
+    case "±":
+    {
+    string chislo = new DataTable().Compute(TextBox_Vichislenie.Text, null).ToString();
+    var plus_minus = Convert.ToDouble(chislo);
+    plus_minus = -plus_minus;
+    chislo = Convert.ToString(plus_minus);
+    TextBox_Vichislenie.Text = chislo;
+    break;
+    }
+    case ".":
+    {
+    string chislo = new DataTable().Compute(TextBox_Vichislenie.Text, null).ToString();
+    chislo = TextBox_Vichislenie.Text + '.';
+    TextBox_Vichislenie.Text = chislo;
+    break;
+    }
+    case "√":
+    {
+    string chislo = new DataTable().Compute(TextBox_Vichislenie.Text, null).ToString();
+    var koren = Convert.ToDouble(chislo);
+    koren = Math.Sqrt(koren);
+    chislo = Convert.ToString(koren);
+    TextBox_Vichislenie.Text = chislo;
+    break;
+    }
+    default:
+    {
+    TextBox_Vichislenie.Text += vvod;
+    break;
+    }
+    }
+    }
+
+
+    }
+    }
+</div></div><pre><code></li></ol><p>Эта не очень сложная программа даёт в результате калькулятор с графической оболочкой:<a href="up_pr7.exe">Ссылка на программу</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

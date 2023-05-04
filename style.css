@@ -1,0 +1,110 @@
+/* general styles */
+
+body {
+  margin: 0;
+  background-color: #ccc;
+  font-family: Arial, sans-serif;
+  font-size: 20px
+}
+p {
+    text-indent: 20px;
+}
+#python {
+    position: static;
+    top: 200px;
+    left: 400px;
+    width: 450px;
+    height: 450px;
+    background-color: #2F3136;
+    padding: 20px;
+}
+
+#f3 {
+    position: static;
+    top: 200px;
+    left: 400px;
+    width: 660px;
+    height: 630px;
+    background-color: #2F3136;
+    padding: 20px;
+}
+
+#f4 {
+    position: static;
+    top: 200px;
+    left: 400px;
+    width: 690px;
+    height: 1430px;
+    background-color: #2F3136;
+    padding: 20px;
+}
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.tab {
+  text-align: center;
+  background-color: #333;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.tab button {
+  display: inline-block;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.tab button:hover {
+  background-color: #444;
+}
+
+.tab button.active {
+  background-color: #555;
+}
+
+.tabcontent {
+  background-color: #ddd;
+  color: #333;
+  padding: 20px;
+}
+.tabcontent:not(:first-of-type) {
+  display: none;
+}
+
+/* styles for the practice tab */
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 80%;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer
